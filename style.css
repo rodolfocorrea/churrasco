@@ -27,3 +27,8 @@ button{
     border: none;
     box-shadow: 3px 3px 3px brown;
 }
+#result{
+    text-align: left;
+    font-family: cursive;
+    box-shadow: 3px 3px 3px brown;
+}
