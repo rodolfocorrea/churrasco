@@ -14,9 +14,9 @@ function calcular() {
     let qtcerveja = cervejaPP(duration) * adultos;
     let qtbebida = bebidaPP(duration) * adultos + (bebidaPP(duration) / 2 * criancas);
 
-    result.innerHTML = `<p>${Math.ceil(qtcarne / 1000)} Kg de carne</p>`
-    result.innerHTML += `<p>${Math.ceil(qtcerveja / 1000)} Latas de cerveja</p>`
-    result.innerHTML += `<p>${Math.ceil(qtbebida / 2000)} Litros de bebidas</p>`
+    result.innerHTML = `<p>${Math.ceil(qtcarne / 1000)} Kg de carne(linguiça, frango, carne, etc.)</p>`
+    result.innerHTML += `<p>${Math.ceil(qtcerveja / 350)} Latas de cerveja</p>`
+    result.innerHTML += `<p>${Math.ceil(qtbebida / 1000)} Litros de bebidas(água, suco, rerig., etc.)</p>`
 }
 function carnePP(duration) {
     if (duration >= 6) {
