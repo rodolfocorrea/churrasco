@@ -1,0 +1,29 @@
+#container{
+    text-align: center;
+    background-color: burlywood;
+    max-width: 300px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    margin-top: 0%;
+    box-shadow: 3px 3px 3px brown;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px brown;
+    margin-bottom: 10px;
+    border: none;
+}
+button{
+    display: block;
+    margin: auto;
+    font-size: large;
+    border: none;
+    box-shadow: 3px 3px 3px brown;
+}
