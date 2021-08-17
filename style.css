@@ -1,6 +1,6 @@
 #container{
     text-align: center;
-    background-color: burlywood;
+    background-image: linear-gradient(45deg,burlywood, brown);
     max-width: 300px;
     margin: auto;
     padding: 20px;
